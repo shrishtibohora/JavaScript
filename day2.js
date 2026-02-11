@@ -37,8 +37,10 @@
 // == === assignments
 //  == checks only value but ignores the data types
 // === strict equality checker, checks both value as well as data types
- let a=10;
- let b="10";
- console.log(a==b);
- console.log(a===b);
+//  let a=10;
+//  let b="10";
+//  console.log(a==b);
+//  console.log(a===b);
+
+
 
