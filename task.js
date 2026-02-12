@@ -9,3 +9,4 @@
 //  const bmi= weight/(height*height);
 //  console.log("bmi is:", bmi.toFixed(2));
 //take input from user
+// Q3 check 

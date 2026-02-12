@@ -81,16 +81,16 @@
 // }
 // console.log("total bill :"+bill);
 // Q6. 
-let age=18;
-if(age<13){
-    console.log(age+"  years age is child ");
-}
-else if(age>=13&& age<=19){
-    console.log(age+" years age is teenage ");
-}
-else if(age>=19 && age<=59){
-    console.log(age+" years is adult");
-}
-else{
-    console.log(age+" years age is senior citizens");
-}
+// let age=18;
+// if(age<13){
+//     console.log(age+"  years age is child ");
+// }
+// else if(age>=13&& age<=19){
+//     console.log(age+" years age is teenage ");
+// }
+// else if(age>=19 && age<=59){
+//     console.log(age+" years is adult");
+// }
+// else{
+//     console.log(age+" years age is senior citizens");
+// }
