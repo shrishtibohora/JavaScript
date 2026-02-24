@@ -51,14 +51,14 @@
 //                 default:
 //                     console.log("error");
 //     }
-// FUNCTION
-// function sum(){
-//     let a = 10;
-//     let b=20;
-//     console.log(a+b);
-//     // return a+b;
-// }
-// sum(); // if you use console.log or directly prints inside function
+FUNCTION
+function sum(){
+    let a = 10;
+    let b=20;
+    console.log(a+b);
+    // return a+b;
+}
+sum(); // if you use console.log or directly prints inside function
 // console.log(sum()); // if i use return a+b 
 
 //parameter based function
@@ -72,11 +72,34 @@
 // }
 // multiply(13,13);
 
-function num(a){
-    if(a%2==0)
-    console.log("even");
-else{
-    console.log("odd");
-}
-}
-num(5);
+// function num(a){
+//     if(a%2==0)
+//     console.log("even");
+// else{
+//     console.log("odd");
+// }
+// }
+// num(5);
+// function multiply(){
+//     // local variable
+//     let a=10;
+//     a*=2;
+//     console.log("local variable",a);
+// }
+// multiply();
+// console.log(a);
+//  ARROW function modern function syntax
+// const evenodd =(a)=>{ //syntax
+//     if(a%2==0){
+//         console.log("even");
+//     }
+//     else{
+//         console.log("odd");
+//     }
+// }
+// evenodd(12);
+//loop in javaScript
+//1.for loop
+// for(let i=0;i<5;i++){
+//     console.log(i);
+// }

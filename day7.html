@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="para">
+        hello guys
+    </p>
+  <h1 id="head">hello guys</h1> -->
+    <!-- <button type="button" onclick="ChangeColor()">change color</button>
+
+    <button type="button" onclick="showHeading()">show element</button>
+     -->
+    <button type="button" onclick="showHeading()">show element</button>
+    <script>
+//         let head =document.querySelector("#head")
+//         function ChangeColor(){
+//         let para =document.getElementById("para")
+//         head.style.display ='none'
+//         para.style.backgroundColor='red'
+//         }
+//         function showHeading(){
+// head.style.display="block"
+//         } 
+        //Creating new element using JS
+        function showHeading(){
+
+        
+let newElement=document.createElement("p")
+newElement.innerText="this is the para element from Js"
+document.body.appendChild(newElement)
+let newElement1=document.createElement("h1")
+newElement1.innerText="this is the heading element from Js"
+document.body.appendChild(newElement1)
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,12 +1,43 @@
-//  write a program to convert the degree celsius to degree fahrenheit [ celsius*(9/5)+32]
-// var celsius=37;
-// var fahrenheit;
-// console.log("fahrenheit=",celsius*(9/5)+32);
+const student=[
+    {
+        name:"shri",
+        marks:[90, 60,30],
+        getTotalMarks:function(){
+            let sum=0;
+            for(let i=0; i< this.marks.length;i++)
+{
+    sum+= this.marks[i];
+}     console.log("Total Marks:",sum); 
+return sum ; },
 
-//  assign values directly
-//  const weight=20; // in kg
-//  const height=2; //in meters
-//  const bmi= weight/(height*height);
-//  console.log("bmi is:", bmi.toFixed(2));
-//take input from user
-// Q3 check 
+}
+    
+];
+
+// const student=[
+//     {
+//         name:"shri",
+//         marks:90,
+//         // changename:function addtask(){
+//         //     this.name="ravi"
+//         },
+//          hobbies:["sing","dance"],
+// addHobbies:function addHobbies(){
+//     this.hobbies.push("code")
+// }
+//     },]
+   
+    // {
+        // name: "hari",
+        // age:70,
+    // }
+// ]
+
+// student[0].changename()
+// console.log(student[0].name);
+// student.forEach((student)=>{
+//     console.log(student.name);
+//     console.log(student.age)
+// }
+
+
